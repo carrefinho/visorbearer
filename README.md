@@ -7,7 +7,7 @@
    - Connection bar: Bluetooth profiles and modifier keys
    - Battery bar: percentage and charging status
    - Powered by two TI LP5012 drivers with low-power mode
-- Hot-swap Kailh Choc V1 (V2 with caveats[^1]) switches in Choc (18x17mm) spacing
+- Hot-swap Kailh Choc v1 (v2 with caveats[^1]) switches in Choc (18x17mm) spacing
 - Seeed Studio XIAO nRF52840 **Plus** controller on ZMK firmware
 - 3D-printed case and switch plate with switch puller grooves
 
