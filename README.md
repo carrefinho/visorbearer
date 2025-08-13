@@ -11,8 +11,7 @@
 - Seeed Studio XIAO nRF52840 **Plus** controller on ZMK firmware
 - 3D-printed case and switch plate with switch puller grooves
 
-[^1]: The PCB is **not** compatible with earlier Choc v2 switches that have an extra third stabilizing pin. Some recent releases that omit the third pin are compatible, including but not limited to: Lofree POM Phantom/Ghost/Specter/Hades, Kailh Hide Mountain/White Rain/Deep Sea Mini Islet/Deep Sea Mini Whale.
-There is no choc-spaced but MX-stemmed keycap available off the shelf, so you will need to 3D print keycaps for Choc v2.
+[^1]: The PCB is **not** compatible with earlier Choc v2 switches that have an extra third stabilizing pin. Some recent releases that omit the third pin are compatible, including but not limited to: Lofree POM Phantom/Ghost/Specter/Hades, Kailh Hide Mountain/White Rain/Deep Sea Mini Islet/Deep Sea Mini Whale. Additionally, there are no choc-spaced but MX-stemmed keycaps available off the shelf, so you will need to 3D print keycaps for Choc v2.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/images/visorbearer-dimensions-dark.png">
