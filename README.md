@@ -3,9 +3,9 @@
 ## Design
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/images/visorbearer_dimensions_dark.jpg">
-  <source media="(prefers-color-scheme: light)" srcset="docs/images/visorbearer_dimensions_light.jpg">
-  <img alt="Visorbearer keyboard dimensions" src="docs/images/visorbearer_dimensions_light.jpg">
+  <source media="(prefers-color-scheme: dark)" srcset="docs/images/visorbearer_dimensions_dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="docs/images/visorbearer_dimensions_light.png">
+  <img alt="Visorbearer keyboard dimensions" src="docs/images/visorbearer_dimensions_dark.png">
 </picture>
 
 - 32-key Hummingbird-ish layout with splay and inverted thumb cluster
