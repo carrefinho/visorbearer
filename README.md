@@ -19,6 +19,12 @@
   <img alt="Visorbearer keyboard dimensions" src="docs/images/visorbearer-dimensions-dark.png">
 </picture>
 
+## Build Guide
+
+> [!WARNING]
+> Revision 2 PCB has not been tested yet.
+
+
 ## Acknowledgments
 
 - Aesthetics
