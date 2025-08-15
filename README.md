@@ -4,6 +4,11 @@
   <img alt="Visorbearer Title and Description" src="docs/images/visorbearer-heading-dark.png">
 </picture>
 
+![Visorbearer keyboard](docs/images/visorbearer-hero.png)
+
+> [!WARNING]
+> This is a work in progress.
+
 ## Design
 
 - 32-key Hummingbird-ish layout with splay and inverted thumb cluster
