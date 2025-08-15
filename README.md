@@ -1,8 +1,5 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/images/visorbearer-heading-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="docs/images/visorbearer-heading-light.png">
-  <img alt="Visorbearer Title and Description" src="docs/images/visorbearer-heading-dark.png">
-</picture>
+![Visorbearer Title and Description](docs/images/visorbearer-heading-light.png#gh-light-mode-only)
+![Visorbearer Title and Description](docs/images/visorbearer-heading-dark.png#gh-dark-mode-only)
 
 ![Visorbearer keyboard](docs/images/visorbearer-hero.png)
 
@@ -23,11 +20,8 @@
 - Seeed Studio XIAO nRF52840 **Plus** controller on ZMK firmware
 - 3D-printed case and switch plate with switch puller grooves
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/images/visorbearer-dimensions-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="docs/images/visorbearer-dimensions-light.png">
-  <img alt="Visorbearer keyboard dimensions" src="docs/images/visorbearer-dimensions-dark.png">
-</picture>
+![Visorbearer keyboard dimensions](docs/images/visorbearer-dimensions-light.png#gh-light-mode-only)
+![Visorbearer keyboard dimensions](docs/images/visorbearer-dimensions-dark.png#gh-dark-mode-only)
 
 ## Build Guide
 
