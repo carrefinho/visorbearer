@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/images/visorbearer-heading-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="docs/images/visorbearer-heading-light.png">
-  <img alt="Visorbearer Title and Description" src="docs/images/visorbearer-heading-dark.png">
+  <source media="(prefers-color-scheme: dark)" srcset="./docs/images/visorbearer-heading-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="./docs/images/visorbearer-heading-light.png">
+  <img alt="Visorbearer Title and Description" src="./docs/images/visorbearer-heading-dark.png">
 </picture>
 
 ![Visorbearer keyboard](docs/images/visorbearer-hero.png)
@@ -24,9 +24,9 @@
 - 3D-printed case and switch plate with switch puller grooves
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/images/visorbearer-dimensions-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="docs/images/visorbearer-dimensions-light.png">
-  <img alt="Visorbearer keyboard dimensions" src="docs/images/visorbearer-dimensions-dark.png">
+  <source media="(prefers-color-scheme: dark)" srcset="./docs/images/visorbearer-dimensions-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="./docs/images/visorbearer-dimensions-light.png">
+  <img alt="Visorbearer keyboard dimensions" src="./docs/images/visorbearer-dimensions-dark.png">
 </picture>
 
 ## Build Guide
