@@ -12,10 +12,12 @@
 ## Design
 
 - 32-key Hummingbird-ish layout with splay and inverted thumb cluster
+   - Down to 26-key with case and plate variants
 - Discreet 2x 4-segment RGB LED indicators
+   - Dead-front design: completely invisible when off
    - Connection bar: Bluetooth profiles and modifier keys
    - Battery bar: percentage and charging status
-   - Powered by two TI LP5012 drivers with low-power mode
+   - Powered by two TI LP5012 drivers with automatic low-power mode
 - Hot-swap Kailh Choc v1 switches in Choc (18x17mm) spacing
    - <details> <summary>Limited support for Choc v2</summary>
       The PCB is not compatible with earlier Choc v2 switches that have an extra third stabilizing pin. Some recent releases that omit the third pin are compatible, including but not limited to: Lofree POM Phantom/Ghost/Specter/Hades, Kailh Hide Mountain/White Rain/Deep Sea Mini Islet/Deep Sea Mini Whale. Additionally, there are no choc-spaced but MX-stemmed keycaps available off the shelf, so you will need to 3D print keycaps for Choc v2.
@@ -34,7 +36,6 @@
 > [!WARNING]
 > Revision 2 PCB has not been tested yet.
 
-
 ## Acknowledgments
 
 - Aesthetics
@@ -45,6 +46,8 @@
    - [davidphilipbarr/hypergolic](https://github.com/davidphilipbarr/hypergolic)
    - [davidphilipbarr/paroxysm](https://github.com/davidphilipbarr/paroxysm)
    - [hazels-garage/bad-wings](https://github.com/hazels-garage/bad-wings/tree/master/v2)
+   - [kilipan/zilpzalp](https://github.com/kilipan/zilpzalp)
+   - [weteor/Tipper-TF](https://github.com/weteor/Tipper-TF)
 - LED indicator
    - [GEIGEIGEIST/KLOTZ](https://github.com/GEIGEIGEIST/KLOTZ)
    - [caksoylar/zmk-rgbled-widget](https://github.com/caksoylar/zmk-rgbled-widget): LED code
