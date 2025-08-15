@@ -1,4 +1,8 @@
-# Visorbearer
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/images/visorbearer-heading-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="docs/images/visorbearer-heading-light.png">
+  <img alt="Visorbearer Title and Description" src="docs/images/visorbearer-heading-dark.png">
+</picture>
 
 ## Design
 
