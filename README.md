@@ -6,6 +6,12 @@
 
 ![Visorbearer keyboard](docs/images/visorbearer-hero.png)
 
+
+
+https://github.com/user-attachments/assets/da893392-b882-4c2d-8c3a-d8bcfd690704
+
+
+
 > [!WARNING]
 > This is a work in progress.
 
