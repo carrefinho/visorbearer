@@ -13,17 +13,18 @@
 
 - 32-key Hummingbird-ish layout with splay and inverted thumb cluster
    - Down to 26-key with case and plate variants
-- Discreet 2x 4-segment RGB LED indicators
-   - Dead-front design: completely invisible when off
+- 2x 4-segment RGB LED indicators
+   - Discreet dead-front design: completely invisible when off
    - Connection bar: Bluetooth profiles and modifier keys
    - Battery bar: percentage and charging status
    - Powered by two TI LP5012 drivers with automatic low-power mode
 - Hot-swap Kailh Choc v1 switches in Choc (18x17mm) spacing
    - <details> <summary>Limited support for Choc v2</summary>
-      The PCB is not compatible with earlier Choc v2 switches that have an extra third stabilizing pin. Some recent releases that omit the third pin are compatible, including but not limited to: Lofree POM Phantom/Ghost/Specter/Hades, Kailh Hide Mountain/White Rain/Deep Sea Mini Islet/Deep Sea Mini Whale. Additionally, there are no choc-spaced but MX-stemmed keycaps available off the shelf, so you will need to 3D print keycaps for Choc v2.
+      The PCB is incompatible with older Choc v2 switches that have a third stabilizing pin. Newer Choc v2 releases without this pin work fine, such as: Lofree POM Phantom/Ghost/Specter/Hades and Kailh Hide Mountain/White Rain/Deep Sea Mini Islet/Deep Sea Mini Whale. Note that choc-spaced keycaps with MX stems are not commercially available, so you'll be limited to 3D-printed keycaps for Choc v2 switches.
    </details>
 - Seeed Studio XIAO nRF52840 **Plus** controller on ZMK firmware
 - 3D-printed case and switch plate with switch puller grooves
+   - Easily accessible reset button
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./docs/images/visorbearer-dimensions-dark.png">
