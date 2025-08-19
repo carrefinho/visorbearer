@@ -8,14 +8,25 @@
 
 https://github.com/user-attachments/assets/da893392-b882-4c2d-8c3a-d8bcfd690704
 
+Visorbearer is a 32-key unibody split wireless keyboard featuring 8 RGB LED indicators, powered by ZMK firmware.
+
 > [!WARNING]
 > This is a work in progress.
 
-Visorbearer is a 32-key unibody split wireless keyboard featuring 8 RGB LED indicators, powered by ZMK firmware.
+## To-Do
+
+- [ ] Build Guide & BOM
+- [ ] Case Printing Guide
+- [ ] Alternative layout case files and guide
+- [ ] Revision 2 PCB testing + power profiling
+- [ ] Firmware Notes
+- [ ] Design write-up
+- [ ] More photos
 
 ## Design
 
 - 32-key Hummingbird-ish layout with splay and inverted thumb cluster
+   - 2U thumb key support
    - Down to 26-key with case and plate variants
 - 2x 4-segment RGB LED indicators
    - Discreet dead-front design: completely invisible when off
@@ -23,8 +34,8 @@ Visorbearer is a 32-key unibody split wireless keyboard featuring 8 RGB LED indi
    - Battery bar: percentage and charging status
    - Powered by two TI LP5012 drivers with automatic low-power mode
 - Hot-swap Kailh Choc v1 switches in Choc (18x17mm) spacing
-   - <details> <summary>Limited support for Choc v2</summary>
-      The PCB is incompatible with older Choc v2 switches that have a third stabilizing pin. Newer Choc v2 releases without this pin work fine, such as: Lofree POM Phantom/Ghost/Specter/Hades and Kailh Hide Mountain/White Rain/Deep Sea Mini Islet/Deep Sea Mini Whale. Note that choc-spaced keycaps with MX stems are not commercially available, so you'll be limited to 3D-printed keycaps for Choc v2 switches.
+   - <details> <summary>Limited Choc v2 compatibility</summary>
+      The PCB is incompatible with older Choc v2 switches that have a third stabilizing pin. Newer Choc v2 releases without this pin work fine, such as: Lofree POM Phantom/Ghost/Specter/Hades and Kailh Hide Mountain/White Rain/Deep Sea Mini Islet/Deep Sea Mini Whale. Note that choc-spaced keycaps with MX stems are not commercially available, so Choc v2 swtiches are limited to 3D-printed keycaps.
    </details>
 - Seeed Studio XIAO nRF52840 **Plus** controller on ZMK firmware
 - 3D-printed case and switch plate with switch puller grooves
@@ -41,7 +52,7 @@ Visorbearer is a 32-key unibody split wireless keyboard featuring 8 RGB LED indi
 > [!WARNING]
 > Revision 2 PCB has not been tested yet.
 
-## Acknowledgments
+## Inspirations & Acknowledgments
 
 - Aesthetics
    - [GEIGEIGEIST/TOTEM](https://github.com/GEIGEIGEIST/TOTEM)
@@ -61,3 +72,7 @@ Visorbearer is a 32-key unibody split wireless keyboard featuring 8 RGB LED indi
 - Case
    - [duckyb/urchin](https://github.com/duckyb/urchin): Snap fit design
 - And the lovely folks on the Fingerpunch discord who were along for the ride!
+
+## License
+
+Visorbearer is licensed under CERN-OHL-P-2.0.
