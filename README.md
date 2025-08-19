@@ -6,14 +6,12 @@
 
 ![Visorbearer keyboard](docs/images/visorbearer-hero.png)
 
-
-
 https://github.com/user-attachments/assets/da893392-b882-4c2d-8c3a-d8bcfd690704
-
-
 
 > [!WARNING]
 > This is a work in progress.
+
+Visorbearer is a 32-key unibody split wireless keyboard featuring 8 RGB LED indicators, powered by ZMK firmware.
 
 ## Design
 
@@ -52,8 +50,10 @@ https://github.com/user-attachments/assets/da893392-b882-4c2d-8c3a-d8bcfd690704
    - [bennytrouser/NostrumX](https://github.com/bennytrouser/NostrumX)
    - [davidphilipbarr/hypergolic](https://github.com/davidphilipbarr/hypergolic)
    - [davidphilipbarr/paroxysm](https://github.com/davidphilipbarr/paroxysm)
+   - [grassfedreeve/akohekohe](https://github.com/grassfedreeve/akohekohe)
    - [hazels-garage/bad-wings](https://github.com/hazels-garage/bad-wings/tree/master/v2)
    - [kilipan/zilpzalp](https://github.com/kilipan/zilpzalp)
+   - [weteor/Fitis](https://github.com/weteor/Fitis)
    - [weteor/Tipper-TF](https://github.com/weteor/Tipper-TF)
 - LED indicator
    - [GEIGEIGEIST/KLOTZ](https://github.com/GEIGEIGEIST/KLOTZ)
