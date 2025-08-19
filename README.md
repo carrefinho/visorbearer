@@ -8,7 +8,7 @@
 
 https://github.com/user-attachments/assets/da893392-b882-4c2d-8c3a-d8bcfd690704
 
-Visorbearer is a 32-key unibody split wireless keyboard featuring 8 RGB LED indicators, powered by ZMK firmware.
+Visorbearer is a 32-key unibody split wireless keyboard featuring 8 RGB LED indicators.
 
 > [!WARNING]
 > This is a work in progress.
