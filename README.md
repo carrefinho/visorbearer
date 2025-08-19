@@ -57,6 +57,7 @@ Visorbearer is a 32-key unibody split wireless keyboard featuring 8 RGB LED indi
 - Aesthetics
    - [GEIGEIGEIST/TOTEM](https://github.com/GEIGEIGEIST/TOTEM)
    - [weteor/Grumpy](https://github.com/weteor/Grumpy)
+   - [donh-joh/alias](https://github.com/dohn-joh/alias)
 - Layout
    - [bennytrouser/NostrumX](https://github.com/bennytrouser/NostrumX)
    - [davidphilipbarr/hypergolic](https://github.com/davidphilipbarr/hypergolic)

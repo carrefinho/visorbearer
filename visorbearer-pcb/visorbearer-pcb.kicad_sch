@@ -3447,6 +3447,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 104.14) (xy 88.9 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "216aad25-2333-49dc-927f-9fbe34c7ecbf")
+	)
+	(wire
+		(pts
 			(xy 82.55 265.43) (xy 115.57 265.43)
 		)
 		(stroke
@@ -3857,7 +3867,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 105.41) (xy 68.58 105.41)
+			(xy 34.29 124.46) (xy 25.4 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4377,7 +4387,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 99.06) (xy 77.47 99.06)
+			(xy 25.4 118.11) (xy 34.29 118.11)
 		)
 		(stroke
 			(width 0)
@@ -5067,6 +5077,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 110.49) (xy 88.9 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfd0a6ae-6179-4b81-9b5a-60306ab01047")
+	)
+	(wire
+		(pts
 			(xy 64.77 41.91) (xy 72.39 41.91)
 		)
 		(stroke
@@ -5137,7 +5157,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 105.41) (xy 68.58 107.95)
+			(xy 25.4 124.46) (xy 25.4 127)
 		)
 		(stroke
 			(width 0)
@@ -5575,6 +5595,16 @@
 		)
 		(uuid "81d30644-61a5-4e44-84a3-adc6f3efd5c8")
 	)
+	(label "LPA_EN"
+		(at 80.01 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "83211d64-e708-4ed3-904e-e8656905fc05")
+	)
 	(label "COL1"
 		(at 46.99 179.07 0)
 		(effects
@@ -5616,7 +5646,7 @@
 		(uuid "93a67d6c-9f0a-439f-a88f-ec50586cacc9")
 	)
 	(label "BAT+"
-		(at 68.58 99.06 0)
+		(at 25.4 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5724,6 +5754,16 @@
 			(justify right bottom)
 		)
 		(uuid "d95730ec-d429-486e-95f6-829402655f96")
+	)
+	(label "LPB_EN"
+		(at 80.01 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da4daa56-345f-4458-8b2f-373f66a221f1")
 	)
 	(label "SDA"
 		(at 72.39 53.34 180)
@@ -5833,6 +5873,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 88.9 110.49 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01d1d6c6-bdab-4c95-974a-8170c9ce2395")
+		(property "Reference" "TP4"
+			(at 93.98 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LPB_EN"
+			(at 93.98 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 88.9 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 88.9 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e3a3f32-a4b7-4181-bb0c-df6b1888da5b")
+		)
+		(instances
+			(project "visorbearer-pcb"
+				(path "/991bc62e-c8ff-45f8-8d04-b56d69cff107"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_marbastlib-choc:choc_v1_SW_HS_CPG135001S30")
 		(at 168.91 213.36 0)
 		(mirror y)
@@ -5927,7 +6034,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 158.75 237.49 0)
 			(effects
 				(font
@@ -6277,7 +6384,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 99.06 194.31 0)
 			(effects
 				(font
@@ -6349,7 +6456,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 39.37 194.31 0)
 			(effects
 				(font
@@ -7098,7 +7205,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 115.57 260.35 0)
 			(effects
 				(font
@@ -7419,7 +7526,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 107.95 0)
+		(at 25.4 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7428,7 +7535,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c23d907-108c-4b91-8121-05fc72f8319d")
 		(property "Reference" "#PWR04"
-			(at 68.58 114.3 0)
+			(at 25.4 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7437,7 +7544,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 113.03 0)
+			(at 25.4 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7445,7 +7552,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 107.95 0)
+			(at 25.4 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7454,7 +7561,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 107.95 0)
+			(at 25.4 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7463,7 +7570,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 107.95 0)
+			(at 25.4 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7827,6 +7934,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 88.9 104.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c78ff23-dc9a-4921-9b70-ad5b79b3633b")
+		(property "Reference" "TP3"
+			(at 93.98 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LPA_EN"
+			(at 93.98 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 88.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 88.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0fc6003-5f7a-4354-8e60-b3f38eb18fc4")
+		)
+		(instances
+			(project ""
+				(path "/991bc62e-c8ff-45f8-8d04-b56d69cff107"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 199.39 196.85 0)
 		(unit 1)
@@ -8113,7 +8287,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 99.06 215.9 0)
 			(effects
 				(font
@@ -8321,7 +8495,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 129.54 237.49 0)
 			(effects
 				(font
@@ -9120,7 +9294,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 77.47 105.41 270)
+		(at 34.29 124.46 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9129,7 +9303,7 @@
 		(fields_autoplaced yes)
 		(uuid "8eb78f77-d4d0-4cff-85f1-e89a6de43c41")
 		(property "Reference" "TP2"
-			(at 82.55 104.1399 90)
+			(at 39.37 123.1899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9137,8 +9311,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 82.55 106.6799 90)
+		(property "Value" "BAT-"
+			(at 39.37 125.7299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9147,7 +9321,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
-			(at 77.47 110.49 0)
+			(at 34.29 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9156,7 +9330,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 110.49 0)
+			(at 34.29 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9165,7 +9339,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 77.47 105.41 0)
+			(at 34.29 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9212,7 +9386,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 129.54 194.31 0)
 			(effects
 				(font
@@ -9348,7 +9522,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 158.75 194.31 0)
 			(effects
 				(font
@@ -9484,7 +9658,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 129.54 215.9 0)
 			(effects
 				(font
@@ -9556,7 +9730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 68.58 194.31 0)
 			(effects
 				(font
@@ -9899,7 +10073,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 39.37 215.9 0)
 			(effects
 				(font
@@ -9946,7 +10120,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 77.47 99.06 270)
+		(at 34.29 118.11 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9955,7 +10129,7 @@
 		(fields_autoplaced yes)
 		(uuid "a560c044-6006-46b6-a84b-ac24734391f8")
 		(property "Reference" "TP1"
-			(at 82.55 97.7899 90)
+			(at 39.37 116.8399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9963,8 +10137,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 82.55 100.3299 90)
+		(property "Value" "BAT+"
+			(at 39.37 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9973,7 +10147,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
-			(at 77.47 104.14 0)
+			(at 34.29 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9982,7 +10156,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 104.14 0)
+			(at 34.29 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9991,7 +10165,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 77.47 99.06 0)
+			(at 34.29 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10113,7 +10287,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 82.55 260.35 0)
 			(effects
 				(font
@@ -10252,7 +10426,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 39.37 237.49 0)
 			(effects
 				(font
@@ -10863,7 +11037,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 68.58 237.49 0)
 			(effects
 				(font
@@ -11207,7 +11381,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 68.58 215.9 0)
 			(effects
 				(font
@@ -11279,7 +11453,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 158.75 215.9 0)
 			(effects
 				(font
