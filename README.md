@@ -35,7 +35,7 @@ Visorbearer is a 32-key unibody split wireless keyboard featuring 8 RGB LED indi
    - Powered by two TI LP5012 drivers with automatic low-power mode
 - Hot-swap Kailh Choc v1 switches in Choc (18x17mm) spacing
    - <details> <summary>Limited Choc v2 compatibility</summary>
-      The PCB is incompatible with older Choc v2 switches that have a third stabilizing pin. Newer Choc v2 releases without this pin work fine, such as: Lofree POM Phantom/Ghost/Specter/Hades and Kailh Hide Mountain/White Rain/Deep Sea Mini Islet/Deep Sea Mini Whale. Note that choc-spaced keycaps with MX stems are not commercially available, so Choc v2 swtiches are limited to 3D-printed keycaps.
+      The PCB is incompatible with older Choc v2 switches that have a third stabilizing pin. Newer Choc v2 releases without this pin work fine, such as: Lofree POM Phantom/Ghost/Specter/Hades and Kailh Hide Mountain/White Rain/Deep Sea Mini Islet/Deep Sea Mini Whale. Note that choc-spaced keycaps with MX stems are not commercially available, so Choc v2 switches are limited to 3D-printed keycaps.
    </details>
 - Seeed Studio XIAO nRF52840 **Plus** controller on ZMK firmware
 - 3D-printed case and switch plate with switch puller grooves
@@ -61,7 +61,7 @@ Visorbearer is a 32-key unibody split wireless keyboard featuring 8 RGB LED indi
 - Aesthetics
    - [GEIGEIGEIST/TOTEM](https://github.com/GEIGEIGEIST/TOTEM)
    - [weteor/Grumpy](https://github.com/weteor/Grumpy)
-   - [donh-joh/alias](https://github.com/dohn-joh/alias)
+   - [dohn-joh/alias](https://github.com/dohn-joh/alias)
 - Layout
    - [bennytrouser/NostrumX](https://github.com/bennytrouser/NostrumX)
    - [davidphilipbarr/hypergolic](https://github.com/davidphilipbarr/hypergolic)
