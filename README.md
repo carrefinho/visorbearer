@@ -52,6 +52,10 @@ Visorbearer is a 32-key unibody split wireless keyboard featuring 8 RGB LED indi
 > [!WARNING]
 > Revision 2 PCB has not been tested yet.
 
+## Gallery
+
+![Comparison of Visorbearer keyboard in single pinkie, standard 32-key, and 2x 2U thumb layouts](docs/images/visorbearer-comparison.png)
+
 ## Inspirations & Acknowledgments
 
 - Aesthetics
