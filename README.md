@@ -6,7 +6,7 @@
 
 ![Visorbearer keyboard](docs/images/visorbearer-hero.png)
 
-https://github.com/user-attachments/assets/88d1783a-2215-49d6-a8d5-74d44db18454
+https://github.com/user-attachments/assets/812049e3-29ce-48d4-8fe3-20bf21285e64
 
 Visorbearer is a 32-key unibody split wireless keyboard featuring 8 RGB LED indicators.
 
