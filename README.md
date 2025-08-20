@@ -4,7 +4,7 @@
   <img alt="Visorbearer Title and Description" src="./docs/images/visorbearer-heading-dark.png">
 </picture>
 
-![Visorbearer keyboard](docs/images/visorbearer-hero.png)
+![Visorbearer keyboard](docs/images/visorbearer-hero.jpg)
 
 https://github.com/user-attachments/assets/da893392-b882-4c2d-8c3a-d8bcfd690704
 
