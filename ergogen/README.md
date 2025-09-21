@@ -1,0 +1,1 @@
+Ergogen was only used to generate key positions, rest of the design including PCB outline and component placement was done with pcb_ref.dxf in Fusion and KiCad.

@@ -1,0 +1,103 @@
+units:
+  p: 1.5
+  c: 13.9
+points:
+  zones:
+    matrix:
+      anchor:
+        rotate: -9
+      key:
+        padding: cy
+        spread: cx
+        tags:
+          choc: true
+      columns:
+        pinky: null
+        ring:
+          key:
+            spread: cx+1.6
+            splay: -10
+            stagger: 15.3
+        middle:
+          key:
+            spread: cx+1.4
+            splay: -8
+            stagger: 6
+        index:
+          key:
+            spread: cx+0.8
+            splay: -6
+            stagger: -4
+        inner:
+          key:
+            stagger: '-cy/2'
+          rows:
+            bottom:
+              skip: true
+      rows:
+        bottom: null
+        home: null
+        top: null
+    thumb:
+      key:
+        padding: cy
+        spread: cx
+        tags:
+          choc: true
+      anchor:
+        ref: matrix_index_bottom
+        shift:
+          - 20
+          - -16
+        rotate: 13
+      columns:
+        home: null
+        far: null
+      rows:
+        bottom: null
+  mirror:
+    ref: matrix_pinky_home
+    distance: 197
+outlines:
+  cutout:
+    - what: rectangle
+      where: true
+      size: c
+  keypos:
+    - what: circle
+      where: true
+      radius: 1
+  keycaps:
+    - what: rectangle
+      where: '-/xs/'
+      size:
+        - cx-0.5
+        - cy-0.5
+  keywell:
+    - what: rectangle
+      where: true
+      size:
+        - cx+1.5
+        - cy+1.5
+  keywell_keycap:
+    - keywell
+    - '-keycaps'
+  voyage:
+    - what: rectangle
+      where: choc
+      size:
+        - 5
+        - 18.5
+  handwire_plate:
+    - keywell
+    - '-cutout'
+  handwire_plate_voyage:
+    - name: keywell
+      operation: add
+    - name: cutout
+      operation: subtract
+    - name: voyage
+      operation: stack
+  pcb_ref:
+    - handwire_plate
+    - keypos
