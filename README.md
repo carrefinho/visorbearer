@@ -10,6 +10,9 @@ https://github.com/user-attachments/assets/812049e3-29ce-48d4-8fe3-20bf21285e64
 
 Visorbearer is a 32-key unibody split wireless keyboard featuring 8 RGB LED indicators.
 
+Named after [hummingbirds in the genus Augastes](https://en.wikipedia.org/wiki/Visorbearer) for the Hummingbird layout connection and distinctive white bands on their chests that resemble the LED indicators.
+
+
 > [!WARNING]
 > This is a work in progress.
 
@@ -18,7 +21,7 @@ Visorbearer is a 32-key unibody split wireless keyboard featuring 8 RGB LED indi
 - [ ] Build Guide & BOM
 - [ ] Case Printing Guide
 - [ ] Alternative layout case files and guide
-- [ ] Revision 2 PCB testing + power profiling
+- [x] Revision 2 PCB testing + power profiling
 - [ ] Firmware Notes
 - [ ] Design write-up
 - [ ] More photos
@@ -49,8 +52,8 @@ Visorbearer is a 32-key unibody split wireless keyboard featuring 8 RGB LED indi
 
 ## Build Guide
 
-> [!WARNING]
-> Revision 2 PCB has not been tested yet.
+> [!NOTE]
+> Revision 2 PCB is tested and working.
 
 ## Gallery
 
