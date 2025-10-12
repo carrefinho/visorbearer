@@ -22,7 +22,7 @@ Named after [hummingbirds in the genus Augastes](https://en.wikipedia.org/wiki/V
 - [ ] Case Printing Guide
 - [ ] Alternative layout case files and guide
 - [x] Revision 2 PCB testing + power profiling
-- [ ] Firmware Notes
+- [x] Firmware Notes
 - [ ] Design write-up
 - [ ] More photos
 
@@ -53,7 +53,15 @@ Named after [hummingbirds in the genus Augastes](https://en.wikipedia.org/wiki/V
 ## Build Guide
 
 > [!NOTE]
-> Revision 2 PCB is tested and working.
+> Revision 2 PCB is tested and working. Build guide is work in progress.
+
+[View the PCB on KiCanvas.](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Fcarrefinho%2Fvisorbearer%2Ftree%2Fmain%2Fvisorbearer-pcb)
+
+[Find the build guide here.](/docs/build-guide.md)
+
+## Firmware
+
+[Find the ZMK module here.](https://github.com/carrefinho/visorbearer-zmk-module)
 
 ## Gallery
 
