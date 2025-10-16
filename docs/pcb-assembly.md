@@ -1,3 +1,11 @@
+# PCB Assembly Guide
+
+> [!WARNING]
+> The Visorbearer PCB uses fine-pitch SMD components, so it’s better suited to builders with some surface-mount soldering experience.
+
+> [!TIP]
+> My personal approach is to use a mixture of drag soldering for the LED drivers and XIAO, and paste with hot plate for LEDs and passives.
+
 ## PCB Bill of Materials
 
 | Qty | Reference(s) | Part number | Notes and links |
@@ -13,3 +21,7 @@
 | 1 | - | 801735 | 400mAh Lithium polymer battery<br>https://www.adafruit.com/product/3898<br>802030 400mAh and 601230 200mAh are also good options. The common 301230 110mAh works too but you might want a bit of double sided tape to fix the battery to the case. |
 
 [View an interactive version of the BOM here](https://htmlpreview.github.io/?https://github.com/carrefinho/visorbearer/blob/main/visorbearer-pcb/bom/ibom.html).
+
+## Component Placement
+
+![LED and LED driver component orientation diagram](./images/pcb-led-component-orientation.jpg)
