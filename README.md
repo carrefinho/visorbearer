@@ -29,8 +29,8 @@ Named after [hummingbirds in the genus Augastes](https://en.wikipedia.org/wiki/V
 ## Design
 
 - 32-key Hummingbird-ish layout with splay and inverted thumb cluster
-   - 2U thumb key support
    - Down to 26-key with case and plate variants
+      - 2U thumb key support
 - 2x 4-segment RGB LED indicators
    - Discreet dead-front design: completely invisible when off
    - Connection bar: Bluetooth profiles and modifier keys
