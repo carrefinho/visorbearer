@@ -1,10 +1,12 @@
 # Case Printing Guide
 
-## First Layer & LED Bezel
+## Top Case
+
+### First Layer & LED Bezel
 
 A good first layer is crucial since it is the exposed top surface of the board. At 0.08-0.12mm thickness, it enables the dead-front effect of the LEDs.
 
-### Build Plate
+#### Build Plate
 
 Finish will largely depend on the type of build plate. I've tested a few with varying results:
 
@@ -18,7 +20,7 @@ Finish will largely depend on the type of build plate. I've tested a few with va
 
 Z offset is increased from default values; the extra squish makes infill lines virtually invisible. Speed doesn't matter much, so feel free to crank it up if you're using CryoGrip.
 
-### Filament Choice
+#### Filament Choice
 
 Only neutral shades (black and grey) will display LED colors cleanly without tinting. Lighter colors may show light bleed around case edges. Even among black and grey filaments, light transmission varies significantly and will require some experimentation. Here are a few I've tested:
 
@@ -36,7 +38,7 @@ A variant with separate LED bezels is available if you want a colored case body 
 > [!NOTE]
 > You can tweak the brightness of LEDs by using different valued current limiting resistors. See the [TI LP5012 datasheet](https://www.ti.com/lit/ds/symlink/lp5012.pdf) on how to calculate values. Default is 15kΩ for 4.9mA per channel; higher values result in lower current/dimmer LEDs, and vice versa.
 
-## Print Settings
+### Print Settings
 
 | Setting | Value | Notes |
 | ------- | ----- | ----- |
@@ -50,3 +52,7 @@ A variant with separate LED bezels is available if you want a colored case body 
 | Support: Top interface spacing | 0mm |  |
 |  |  |  |
 |  |  |  |
+
+## Switch Plate and Bottom Cover
+
+These parts are less critical in appearance as they are mostly hidden. Standard print settings should work fine.
