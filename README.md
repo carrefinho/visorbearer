@@ -1,9 +1,3 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./docs/images/visorbearer-heading-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="./docs/images/visorbearer-heading-light.png">
-  <img alt="Visorbearer Title and Description" src="./docs/images/visorbearer-heading-dark.png">
-</picture>
-
 ![Visorbearer keyboard](docs/images/visorbearer-hero.png)
 
 https://github.com/user-attachments/assets/812049e3-29ce-48d4-8fe3-20bf21285e64
