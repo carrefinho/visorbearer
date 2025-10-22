@@ -24,4 +24,4 @@
 
 ## Component Placement
 
-![LED and LED driver component orientation diagram](./images/pcb-led-component-orientation.jpg)
+![LED and LED driver component orientation diagram](./images/pcb-led-component-orientation.png)
