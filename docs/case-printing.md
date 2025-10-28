@@ -30,6 +30,7 @@ Only neutral shades (black and grey) will display LED colors cleanly without tin
 | Overture Matte PLA Black | Very opaque; still quite dim at 0.06mm. |  |
 | Sunlu PLA Matte Black | Almost 100% opaque, doesn’t work at all. |  |
 | Elegoo/Deeplee Matte PLA Black | Lets through quite a bit of light; I use 0.12mm. | Shows stress marks. |
+| Bambu Lab PLA Basic Dark Grey | Works well at 0.12mm. |  |
 | Bambu Lab PLA Matte Nardo Grey | Works well at 0.1mm. |  |
 | Elegoo/Deeplee Matte PLA Grey | Too translucent even at 0.12mm; might work at 0.2mm. The translucency gives it a nice soft-edged look though. |  |
 

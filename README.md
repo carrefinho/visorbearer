@@ -1,12 +1,7 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./docs/images/visorbearer-heading-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="./docs/images/visorbearer-heading-light.png">
-  <img alt="Visorbearer Title and Description" src="./docs/images/visorbearer-heading-dark.png">
-</picture>
-
 ![Visorbearer keyboard](docs/images/visorbearer-hero.png)
 
-https://github.com/user-attachments/assets/812049e3-29ce-48d4-8fe3-20bf21285e64
+
+# Visorbearer
 
 Visorbearer is a 32-key unibody split wireless keyboard featuring 8 RGB LED indicators.
 
@@ -28,14 +23,16 @@ Named after [hummingbirds in the genus Augastes](https://en.wikipedia.org/wiki/V
 
 ## Design
 
-- 32-key Hummingbird-ish layout with splay and inverted thumb cluster
-   - Down to 26-key with case and plate variants
-      - 2U thumb key support
+https://github.com/user-attachments/assets/812049e3-29ce-48d4-8fe3-20bf21285e64
+
 - 2x 4-segment RGB LED indicators
    - Discreet dead-front design: completely invisible when off
    - Connection bar: Bluetooth profiles and modifier keys
    - Battery bar: percentage and charging status
    - Powered by two TI LP5012 drivers with automatic low-power mode
+- 32-key Hummingbird-ish layout with splay and inverted thumb cluster
+   - Down to 26-key with case and plate variants
+      - 2U thumb key support
 - Hot-swap Kailh Choc v1 switches in Choc (18x17mm) spacing
    - <details> <summary>Limited Choc v2 compatibility</summary>
       The PCB is incompatible with older Choc v2 switches that have a third stabilizing pin. Newer Choc v2 releases without this pin work fine, such as: Lofree POM Phantom/Ghost/Specter/Hades and Kailh Hide Mountain/White Rain/Deep Sea Mini Islet/Deep Sea Mini Whale. Note that choc-spaced keycaps with MX stems are not commercially available, so Choc v2 switches are limited to 3D-printed keycaps.
