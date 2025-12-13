@@ -35,7 +35,11 @@ https://github.com/user-attachments/assets/812049e3-29ce-48d4-8fe3-20bf21285e64
       - 2U thumb key support
 - Hot-swap Kailh Choc v1 switches in Choc (18x17mm) spacing
    - <details> <summary>Limited Choc v2 compatibility</summary>
-      The PCB is incompatible with older Choc v2 switches that have a third stabilizing pin. Newer Choc v2 releases without this pin work fine, such as: Lofree POM Phantom/Ghost/Specter/Hades and Kailh Hide Mountain/White Rain/Deep Sea Mini Islet/Deep Sea Mini Whale. Note that choc-spaced keycaps with MX stems are not commercially available, so Choc v2 switches are limited to 3D-printed keycaps.
+
+      The PCB is incompatible with older Choc v2 switches that have a third stabilizing pin. Newer Choc v2 releases without this pin work fine, such as: Lofree POM Phantom/Ghost/Specter/Hades and Kailh Hide Mountain/White Rain/Deep Sea Mini Islet/Deep Sea Mini Whale.
+
+      Note that, for Choc v2, there are very few off-the-shelf options for choc-spaced keycaps with MX stems: as of late 2025, the only two are [Taihao THCS](https://shop.tai-hao.com/categories/thcs-low-profile-keycaps) and [Asymplex MX-stem Chicago Steno](https://www.asymplex.xyz/product/made-to-order-mx-stem-cs-kits). You could also 3D-print your own keycaps.
+
    </details>
 - Seeed Studio XIAO nRF52840 **Plus** controller on ZMK firmware
 - 3D-printed case and switch plate with switch puller grooves
